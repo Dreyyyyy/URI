@@ -3,15 +3,14 @@ import java.util.Scanner;
 public class ex02 {
 
 	public static void main(String[] args) {
-		int A = 0, B = 0, X = 0;
+		double n = 3.14159, raio = 0.0, area = 0.0;
 		Scanner input = new Scanner(System.in);
-		
-		A = input.nextInt();
-		B = input.nextInt();
-		
-		X = A + B;
-		
-		System.out.println("X = " + X);
+
+		raio = input.nextDouble();
+
+		area = n * (raio * raio);
+
+		System.out.printf("A=%.4f", area);
 	}
 
 }
